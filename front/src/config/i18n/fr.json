@@ -342,7 +342,7 @@
         "deleteLabel": "Delete feature"
       },
       "setup": {
-        "title": "Arduino configuration",
+        "title": "Configuration Arduino",
         "arduinoDescription": "You can connect an Arduino card to an USB port.",
         "urlLabel": "Broker URL",
         "urlPlaceholder": "Ex: mqtt://[mqtt-broker-address]:[port]",
