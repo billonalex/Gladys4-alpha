@@ -1,0 +1,25 @@
+[
+  {
+    "key": "zwave",
+    "name": "Z-Wave",
+    "description": "Controller vos périphériques Z-Wave.",
+    "img": "/assets/integrations/cover/zwave.jpg"
+  },
+  {
+    "key": "rtsp-camera",
+    "name": "RTSP Camera",
+    "description": "Afficher vos caméras dans Gladys.",
+    "img": "/assets/integrations/cover/rtsp-camera.jpg"
+  },
+  {
+    "key": "mqtt",
+    "name": "MQTT",
+    "description": "Se connecter à un serveur MQTT.",
+    "img": "/assets/integrations/cover/mqtt.jpg"
+  }, {
+    "key": "arduino",
+    "name": "Arduino",
+    "description": "Connecter une carte Arduino à Gladys.",
+    "img": "/assets/integrations/cover/arduino.jpg"
+  }
+]

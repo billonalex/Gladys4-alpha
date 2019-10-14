@@ -1,0 +1,8 @@
+[
+  {
+    "key": "telegram",
+    "name": "Telegram",
+    "description": "Parler à Gladys via Telegram.",
+    "img": "/assets/integrations/cover/telegram.jpg"
+  }
+]
