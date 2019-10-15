@@ -325,79 +325,79 @@
         "notFound": "Périphérique non requis non trouvé.",
         "backToList": "Retour à la liste des périphériques",
         "saveError": "Erreur lors de la sauvegarde/suppression du périphérique",
-        "saveConflictError": "Conflict: Are you sure all device feature external IDs are unique ?"
+        "saveConflictError": "Conflit : Etes-vous sûr que tout les IDs externes des fonctionnalités des périphériques sont uniques ?"
       },
       "feature": {
-        "nameLabel": "Name",
-        "namePlaceholder": "Enter feature name",
-        "externalIdLabel": "Feature external ID",
-        "externalIdMessage": "The feature external ID is an unique ID which helps you identify this feature outside of Gladys when sending a MQTT message. It musts start with \"mqtt:\". Read the MQTT API documentation <a href=\"https://documentation.gladysassistant.com/en/api#mqtt-api\">here</a>.",
-        "externalIdPlaceholder": "Feature Arduino message key",
-        "unitLabel": "Unit",
-        "minLabel": "Minimum value",
-        "minPlaceholder": "Enter feature minimum value",
-        "maxLabel": "Maximum value",
-        "maxPlaceholder": "Enter feature maximum value",
-        "addButton": "Add feature",
-        "deleteLabel": "Delete feature"
+        "nameLabel": "Nom",
+        "namePlaceholder": "Entrez le nom de la fonctionnalité",
+        "externalIdLabel": "ID externe de la fonctionnalité",
+        "externalIdMessage": "L'ID externe de la fonctionnalité est un ID unique qui vous aide à identifier cette fonctionnalité en dehors de Gladys lors de l'envoi d'un message MQTT. Il doit commencer par \"mqtt:\". Lire la documentation relative à l'API MQTT <a href=\"https://documentation.gladysassistant.com/fr/api#mqtt-api\">ici</a>.",
+        "externalIdPlaceholder": "Fonctionnalité - clé de message Arduino",
+        "unitLabel": "Unité",
+        "minLabel": "Valeur minimum",
+        "minPlaceholder": "Entrez la valeur minimale de la fonctionnalité",
+        "maxLabel": "Valeur maximum",
+        "maxPlaceholder": "Entrez la valeur maximale de la fonctionnalité",
+        "addButton": "Ajouter la fonctionnalité",
+        "deleteLabel": "Supprimer la fonctionnalité"
       },
       "setup": {
         "title": "Configuration Arduino",
-        "arduinoDescription": "You can connect an Arduino card to an USB port.",
-        "urlLabel": "Broker URL",
+        "arduinoDescription": "Vous pouvez connecter Gladys à un broker MQTT pour envoyer et recevoir des messages en MQTT. En savoir plus sur l'API MQTT de Gladys <a href=\"https://documentation.gladysassistant.com/en/api#mqtt-api\">ici</a>.",
+        "urlLabel": "URL du broker",
         "urlPlaceholder": "Ex: mqtt://[mqtt-broker-address]:[port]",
-        "userLabel": "Username",
-        "userPlaceholder": "Enter MQTT broker username",
-        "passwordLabel": "Password",
-        "passwordPlaceholder": "Enter MQTT broker password",
-        "saveLabel": "Save configuration",
-        "error": "An error occured while saving configuration.",
-        "connecting": "Configuration saved. Now connecting to your Arduino card...",
-        "connected": "Connected to the Arduino card with success !"
+        "userLabel": "Nom d'utilisateur",
+        "userPlaceholder": "Entrez le nom d'utilisateur du broker MQTT",
+        "passwordLabel": "Mot de passe",
+        "passwordPlaceholder": "Entrez le mot de passe du broker MQTT",
+        "saveLabel": "Sauvegarder la configuration",
+        "error": "Une erreur est survenue lors de la sauvegarde de la configuration.",
+        "connecting": "Configuration sauvegardée. Connexion au broker MQTT...",
+        "connected": "Connecté au broker MQTT avec succès !"
       }
     }
   },
   "editScene": {
-    "backButton": "Back",
-    "startButton": "Start",
-    "saveButton": "Save",
-    "deleteButton": "Delete",
-    "first": "First",
-    "then": "Then",
+    "backButton": "Retour",
+    "startButton": "Démarree",
+    "saveButton": "Sauvegarder",
+    "deleteButton": "Supprimer",
+    "first": "D'abord",
+    "then": "Ensuite",
     "actions": {
       "telegram": {
-        "send": "Send Telegram Message"
+        "send": "Envoyer un message Telegram"
       },
-      "delay": "Wait",
+      "delay": "Patienter",
       "light": {
-        "turn-on": "Turn On the Lights"
+        "turn-on": "Allumer les lumières"
       },
       "scene": {
-        "start": "Start scene"
+        "start": "Démarrer la scène"
       },
       "service": {
-        "start": "Start service",
-        "stop": "Stop service"
+        "start": "Démarrer le service",
+        "stop": "Arrêter service"
       }
     }
   },
   "profile": {
-    "title": "Profile",
-    "editYourProfileTitle": "Edit your profile",
-    "userRole": "User",
-    "adminRole": "Administrator",
-    "firstnameLabel": "Firstname",
-    "firstnamePlaceholder": "Enter your firstname",
-    "lastnameLabel": "Lastname",
-    "lastnamePlaceholder": "Enter your lastname",
-    "selectorLabel": "Selector",
-    "birthdateLabel": "Birthdate",
-    "year": "Year",
-    "month": "Month",
-    "day": "Day",
-    "selectorText": "The selector is the unique identifier of your user. It can be used in the API.",
-    "profilePictureLabel": "Profile Picture",
-    "chooseFileLabel": "Choose file",
+    "title": "Profil",
+    "editYourProfileTitle": "Editer votre profil",
+    "userRole": "Utilisateur",
+    "adminRole": "Administrateur",
+    "firstnameLabel": "Prénom",
+    "firstnamePlaceholder": "Entrez votre prénom",
+    "lastnameLabel": "Nom",
+    "lastnamePlaceholder": "Entrez votre nom",
+    "selectorLabel": "Sélecteur",
+    "birthdateLabel": "Date de naissance",
+    "year": "Année",
+    "month": "Mois",
+    "day": "Jour",
+    "selectorText": "Le sélecteur est l'identifiant unique de votre utilisateur. Il peut être utilisé via l'API.",
+    "profilePictureLabel": "Photo de Profil",
+    "chooseFileLabel": "Choisir l'image",
     "emailLabel": "Email",
     "emailPlaceholder": "Enter your email",
     "languageLabel": "Language",
