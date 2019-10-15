@@ -1,7 +1,7 @@
 module.exports.example = require('./example');
 module.exports.darksky = require('./darksky');
 module.exports.mqtt = require('./mqtt');
-module.exports.serial = require('./serial');
+module.exports.arduino = require('./arduino');
 module.exports['philips-hue'] = require('./philips-hue');
 module.exports['rtsp-camera'] = require('./rtsp-camera');
 module.exports.telegram = require('./telegram');
