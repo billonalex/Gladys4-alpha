@@ -322,9 +322,9 @@
         "deleteButton": "Supprimer",
         "returnButton": "Retour",
         "editButton": "Editer",
-        "notFound": "Requested device not found.",
-        "backToList": "Back to device list",
-        "saveError": "Error saving or deleting device",
+        "notFound": "Périphérique non requis non trouvé.",
+        "backToList": "Retour à la liste des périphériques",
+        "saveError": "Erreur lors de la sauvegarde/suppression du périphérique",
         "saveConflictError": "Conflict: Are you sure all device feature external IDs are unique ?"
       },
       "feature": {
