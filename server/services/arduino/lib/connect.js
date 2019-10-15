@@ -1,4 +1,4 @@
-var serialport = require('serialport');
+/*var serialport = require('serialport');
 var SerialPort = serialport.SerialPort;
 var shared = require('./shared.js');
 var parseData = require('./parseData.js');
@@ -36,4 +36,4 @@ module.exports = function() {
         return port;
       });
     });
-};
+};*/

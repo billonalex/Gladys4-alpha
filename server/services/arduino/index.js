@@ -1,8 +1,8 @@
 const logger = require('../../utils/logger');
 const ArduinoController = require('./api/arduino.controller');
-const setup = require('./lib/setup.js');
+/*const setup = require('./lib/setup.js');
 const connect = require('./lib/connect.js');
-const sendCode = require('./lib/sendCode.js');
+const sendCode = require('./lib/sendCode.js');*/
 
 module.exports = function ArduinoService(gladys, serviceId) {
     const SerialPort = require('serialport');
