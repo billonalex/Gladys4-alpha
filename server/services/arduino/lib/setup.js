@@ -1,4 +1,4 @@
-var SerialPort = require('serialport');
+/*var SerialPort = require('serialport');
 var Promise = require('bluebird');
 var connect = require('./connect.js');
 
@@ -62,4 +62,4 @@ function listUsbDevices() {
       return resolve(ports);
     });
   });
-}
+}*/
