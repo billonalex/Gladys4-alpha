@@ -670,6 +670,6 @@
     "label": "Select you Gladys user",
     "noInstanceFound": "Your Gladys instance is not connected to the Gladys Gateway. Did you connect to your Gladys Plus account in your Gladys installation?",
     "error": "An error occurred. Is your user accepted locally in your Gladys instance ?",
-    "saveButton": "Save"
+    "saveButton": "Sauvegarder"
   }
 }
