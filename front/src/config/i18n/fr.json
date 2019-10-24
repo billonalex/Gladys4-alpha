@@ -403,7 +403,7 @@
     "languageLabel": "Language",
     "english": "English",
     "french": "Français",
-    "passwordLabel": "Password (min 8 characters)",
+    "passwordLabel": "Mot de passe (8 caractères minimum)",
     "passwordPlaceholder": "Enter your password",
     "passwordRepeatLabel": "Repeat your password",
     "passwordRepeatPlaceholder": "Repeat your password",
